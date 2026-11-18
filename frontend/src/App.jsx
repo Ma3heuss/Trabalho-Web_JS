@@ -70,7 +70,7 @@ function App() {
   }
 
   return (
-    <main className="min-h-screen bg-slate-190 text-gray-800">
+    <main className="min-h-screen bg-slate-300 text-gray-800">
 
 
       <div className="max-w-5xl mx-auto px-6 py-8">
@@ -78,7 +78,7 @@ function App() {
         {/* Formulario de cadastro */}
         <section className="mb-10">
 
-          <h2 className="text-lg font-semibold mb-5">
+          <h2 className="text-3xl font-semibold mb-5">
             Cadastrar herói
           </h2>
 
@@ -97,7 +97,7 @@ function App() {
                   onChange={(e) => setName(e.target.value)}
                   placeholder="Nome do herói"
                   required
-                  className="w-full border border-gray-300 px-3 py-2 outline-none focus:border-gray-600"
+                  className="w-full border border-gray-300 bg-white text-gray-900 placeholder-gray-500 px-3 py-2 outline-none focus:border-gray-600"
                 />
               </div>
 
@@ -112,7 +112,7 @@ function App() {
                   onChange={(e) => setUniverse(e.target.value)}
                   placeholder="Ex: Marvel"
                   required
-                  className="w-full border border-gray-300 px-3 py-2 outline-none focus:border-gray-600"
+                  className="w-full border border-gray-300 bg-white text-gray-900 placeholder-gray-500 px-3 py-2 outline-none focus:border-gray-600"
                 />
               </div>
 
@@ -127,7 +127,7 @@ function App() {
                   onChange={(e) => setPower(e.target.value)}
                   placeholder="Poder do herói"
                   required
-                  className="w-full border border-gray-300 px-3 py-2 outline-none focus:border-gray-600"
+                  className="w-full border border-gray-300 bg-white text-gray-900 placeholder-gray-500 px-3 py-2 outline-none focus:border-gray-600"
                 />
               </div>
 
